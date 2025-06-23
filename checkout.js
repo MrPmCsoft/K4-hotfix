@@ -1,6 +1,6 @@
 "// checkout module buggy" 
 function checkout() {
-    return false; // ❌ BUG: trả về sai
+    return true; 
   }
   
   if (!checkout()) {
